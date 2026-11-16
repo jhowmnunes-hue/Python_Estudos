@@ -38,9 +38,9 @@ def torres_de_hanoi_recursivo(num_discos, origem, destino, auxiliar):
 # Resolvendo o problema recursivamente
 num_disco = 3
 # Inicializando as torres e os discos
-torre_A = list(range(num_disco, 0, -1))
-torre_B = []
-torre_C = []
+torre_A = list(range(num_disco, 0, -1)) # Cria a lista: [3, 2, 1]
+torre_B = []                            # Cria uma lista vazia: []
+torre_C = []                            # Cria uma lista vazia: []
 # Mostrando o estado inicial
 imprimir_torres(torre_A, torre_B, torre_C)
 torres_de_hanoi_recursivo( num_disco, torre_A, torre_C, torre_B)
