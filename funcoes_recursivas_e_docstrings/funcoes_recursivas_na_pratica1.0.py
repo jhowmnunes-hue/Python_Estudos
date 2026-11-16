@@ -23,7 +23,7 @@ def imprimir_torres(torre_A, torre_B, torre_C):
     print("A:", torre_A)
     print("B:", torre_B)
     print("C:", torre_C)
-    print()
+    print()                 # Serve para pular uma linha em branco
 
 def torres_de_hanoi_recursivo(num_discos, origem, destino, auxiliar):
    if num_discos == 1:
