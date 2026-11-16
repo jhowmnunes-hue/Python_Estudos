@@ -16,8 +16,8 @@
 # -Escreva uma função em Python para resolver as Torres de Hanói de forma recursiva.
 
 def mover_disco(origem, destino):
-    disco = origem.pop() # .pop() remove e retorna o último item da lista
-    destino.append(disco) # .append() insere um item no final da lista
+    disco = origem.pop()     # .pop() remove e retorna o último item da lista
+    destino.append(disco)    # .append() insere um item no final da lista
 
 def imprimir_torres(torre_A, torre_B, torre_C):
     print("A:", torre_A)
